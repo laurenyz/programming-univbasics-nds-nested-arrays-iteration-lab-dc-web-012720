@@ -91,4 +91,7 @@ def total_even_pairs(src)
       row_index += 1
     
     end
+    total
 end
+
+# total_even_pairs[[2,4],[]]
