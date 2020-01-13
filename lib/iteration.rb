@@ -23,24 +23,24 @@ def join_ingredients(src)
 # join_ingredients(toppings)
 
 
- #def find_greater_pair(src)
+ def find_greater_pair(src)
 #   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
 #   # Produce a new Array that contains the larger number of each of the pairs
 #   # that are in the inner Arrays
   
-#   new_array = []
-#   row_index = 0 
-#     while row_index < src.count do 
-#         if src[row_index][0] < src[row_index][1]
-#           new_array << src[row_index][1]
-#         else
-#           new_array << src[row_index][0]
-#         end
-#         row_index += 1
+  new_array = []
+  row_index = 0 
+    while row_index < src.count do 
+        if src[row_index][0] < src[row_index][1]
+          new_array << src[row_index][1]
+        else
+          new_array << src[row_index][0]
+        end
+        row_index += 1
      
-#     end
-#     new_array
-# end
+    end
+    new_array
+end
 
 # numbers = [ [1,2], [3,4], [5,6]]
 # puts find_greater_pair(numbers)
