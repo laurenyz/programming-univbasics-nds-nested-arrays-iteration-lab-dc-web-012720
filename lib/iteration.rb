@@ -67,7 +67,7 @@ end
 
 
 
-# def total_even_pairs(src)
+def total_even_pairs(src)
 #   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
 #   # if both numbers in the pair are even, then add both those numbers to the
 #   # total
@@ -76,19 +76,19 @@ end
 #   # the number was even. Review the operator documentation if you've forgotten
 #   # this!
   
-#   total = 0 
-#   row_index = 0 
-#     while row_index < src.count do 
+  total = 0 
+  row_index = 0 
+    while row_index < src.count do 
       
-#       remainder_one = src[row_index][0] % 2 
-#       remainder_two = src[row_index][1] % 2
+      remainder_one = src[row_index][0] % 2 
+      remainder_two = src[row_index][1] % 2
       
-#       if remainder_one == 0 && remainder_two == 0 
-#         total += src[row_index][0]
-#         total += src[row_index][1]
+      if remainder_one == 0 && remainder_two == 0 
+        total += src[row_index][0]
+        total += src[row_index][1]
         
-#       end
-#       row_index += 1
+      end
+      row_index += 1
     
-#     end
-# end
+    end
+end
